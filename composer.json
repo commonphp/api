@@ -1,0 +1,26 @@
+{
+  "name": "comphp/api",
+  "version": "0.3",
+  "autoload": {
+    "psr-4": {
+      "CommonPHP\\API\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CommonPHP\\API\\Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "require": {
+    "php": "^8.5"
+  }
+}
