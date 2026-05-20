@@ -36,6 +36,7 @@ API failures should use CommonPHP package exceptions and should return structure
 
 ## Documentation
 
+- [Documentation index](docs/index.md)
 - [Usage](docs/usage.md)
 - [Testing](TESTING.md)
 - [Contributing](CONTRIBUTING.md)
